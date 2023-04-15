@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //exercicio 1
+     let valor1 = parseFloat(prompt("Digite o primeiro valor:"));
+     let valor2 = parseFloat(prompt("Digite o segundo valor:"));
+
+     while (valor2 <= 0) {
+     valor2 = parseFloat(prompt("O segundo valor deve ser maior que zero. Digite novamente:"));
+     }  
+
+     let resultado = valor1 / valor2;
+     alert("O resultado da divisão é: " + resultado);
+
+     //exercicio 2
+     let tempo = 30;
+
+     while (tempo >= 0) {
+     document.write(tempo + "<br>");
+     tempo--;
+     }
+
+     document.write("EXPLOSÃO");
+
+     //exercicio 3 XXXXX
+     for (let i = 10; i >= 1; i--) {
+     console.log(i);
+     }
+
+     //exercicio 4 XXXXX
+     let soma = 0;
+     let contador = 0;
+
+     for (let i = 15; i <= 100; i++) {
+     soma += i;
+     contador++;
+     }
+
+     const media = soma / contador;
+
+     alert("A média dos números entre 15 e 100 é:", media);
+
+     //exercicio 6
+     alert ( "Este programa irá calcular a média dos alunos e dizer se foi aprovado ou não!" ) ;
+
+     function aluno  ( ) {
+     let  nota1  =  parseFloat ( prompt ( "Insira sua primeira nota:" ) ) ;
+     let  nota2  =  parseFloat ( prompt ( "Insira sua segunda nota:" ) ) ;
+     let  media  =  ( nota1  +  nota2 ) / 2 ;
+
+         if  ( média  >=  9.5 )  {
+      document . write ( `A média do aluno é ${ media } e ele foi <b>APROVADO</b>! <br>` ) ;
+     }   {
+     document . write ( `A média do aluno é ${ media } e ele foi <b>REPROVADO</b>! <br>` ) ;
+     }
+
+     nova_pesquisa ( ) ;
+     }
+
+      function  nova_pesquisa  ( ) {
+     let  consulta  =  prompt ( "Calcular a média de outro aluno S/N?" ) ;
+     vamosconfirmar  =  "S" ;
+     deixecancelar  =  "N" ;
+     if  ( consulte  ===  confirme )  {
+     aluno ( )
+     }  else  if  ( consultar  ===  cancelar )  {
+      alert ( "Confira os resultados:" ) ;
+     }
+     }
+     aluno  ( ) ;
+     
+     //exercicio 7
+     alert ( "O programa irá calcular sua média das suas 6 provas." ) ;
+
+     var  nota1  =  parseFloat ( prompt ( "Qual sua primeira nota?" ) ) 
+     if  ( nota1  <  0  ||  nota1  >  10 ) {
+     var  nota1  =  parseFloat ( prompt ( "ERRO! Informe a nota corretamente, entre 0 e 10:" ) ) ;
+     }
+
+     var  nota2  =  parseFloat ( prompt ( "Qual sua segunda nota?" ) ) ;
+     if  ( nota2  <  0  ||  nota2  >  10 ) {
+     var  nota2  =  parseFloat ( prompt ( "ERRO! Informe a nota corretamente, entre 0 e 10:" ) ) ;
+     }
+
+     var  nota3  =  parseFloat ( prompt ( "Qual sua terceira nota?" ) ) ;
+     if  ( nota3  <  0  ||  nota3  >  10 ) {
+     var  nota3  =  parseFloat ( prompt ( "ERRO! Informe a nota corretamente, entre 0 e 10:" ) ) ;
+     }
+
+     var  nota4  =  parseFloat ( prompt ( "Qual sua quarta nota?" ) ) ;
+     if  ( nota4  <  0  ||  nota4  >  10 ) {
+     var  nota4  =  parseFloat ( prompt ( "ERRO! Informe a nota corretamente, entre 0 e 10:" ) ) ;
+     }
+
+     var  nota5  =  parseFloat ( prompt ( "Qual sua quinta nota?" ) ) ;
+     if  ( nota5  <  0  ||  nota5  >  10 ) {
+     var  nota5  =  parseFloat ( prompt ( "ERRO! Informe a nota corretamente, entre 0 e 10:" ) ) ;
+     }
+
+     var  nota6  =  parseFloat ( prompt ( "Qual sua sexta nota?" ) ) ;
+     if  ( nota6  <  0  ||  nota6  >  10 ) {
+     var  nota6  =  parseFloat ( prompt ( "ERRO! Informe a nota corretamente, entre 0 e 10:" ) ) ;
+     }
+
+     function mídia  ( ){
+     var  calcular  =  ( nota1  +  nota2  +  nota3  +  nota4  +  nota5  +  nota6 ) / 6
+     document. write  ("A sua média é: ${ calcular } " ) ;
+     }
+
+     mídia ( ) ;
+
+
+     //exercicio 9
+     function  algoritmo  ( ) {
+       let  inicio  =  100 ;
+          deixefinal  =  110 ;
+
+         while  ( inicio  <  final ) {
+      início ++
+     document.write ( inicio  +  "<br>" ) ;
+     }
+     }
+
+     algoritmo ( ) ;
+
+
+     //exercicio 10 
+     var  inicio  =  0 ;
+var  final  =  parseInt ( prompt ( "Escolha um numero:" ) ) ;
+
+var  x1  =  1 ;
+  var  x2  =  2 ;
+    var  x3  = 3 ; _  
+      var   x4  = 4 ; _  
+        var  x5  = 5 ; _  
+          var  x6  = 6 ; _  
+            var  x7  = 7 ; _  
+              var  x8  ​​= 8 ; _  
+                var  x9  =  9 ;
+                  var x10  = 10 ; _  
+
+while  ( inicio  <  final )  {
+       início ++
+                      var  resultado1  =  ( inicio  *  x1 ) ;
+                  var  resultado2  =  ( inicio  *  x2 ) ;
+               var  resultado3  =  ( inicio  *  x3 ) ;
+             var  resultado4  =  ( inicio  *  x4 ) ;
+          var  resultado5  =  ( início  *  x5 ) ;
+        var  resultado6  =  ( inicio  *  x6 ) ;
+      var  resultado7  =  ( inicio  *  x7 ) ;
+     var  resultado8  =  ( inicio  *  x8 ) ;
+  var  resultado9  =  ( inicio  *  x9 ) ;
+var  resultado10  =  ( inicio  *  x10 ) ;
+
+    document. write ( ` ${ inicio } x 1 = ${ resultado1 } <br> ${ inicio } x 2 = ${ resultado2 } <br> ${ inicio } x 3 = ${ resultado3 } <br> ${ inicio } x 4 = ${ resultado4 } <br> ${ início } x 5 = ${ resultado5 } <br> ${ início } x 6 = ${resultado6 } <br> ${ inicio } x 7 = ${ resultado7 } <br> ${ inicio } x 8 = ${ resultado8 } <br> ${ inicio } x 9 = ${ resultado9 } <br> ${ inicio } x 10 = ${ resultado10 } <br> <hr>`);
+}
+
+
+//exercicio 11
+alert ( "Informe 10 números ao programa, e ele irá dizer quais números estão entre 24 e 42, e quais estão fora deles." ) ;
+
+var  numero1  =  parseInt ( prompt ( "Informe o primeiro numero:" ) ) ;
+   var  numero2  =  parseInt ( prompt ( "Informe o segundo número:" ) ) ;
+      var  numero3  =  parseInt ( prompt ( "Informe o terceiro número:" ) ) ;
+         var  numero4  =  parseInt ( prompt ( "Informe o quarto numero:" ) ) ;
+            var  numero5  =  parseInt ( prompt ( "Informe o quinto número:" ) ) ;
+               var  numero6  =  parseInt ( prompt ( "Informe o sexto número:" ) ) ;
+                  var  numero7  =  parseInt ( prompt ( "Informe o sétimo número:" ) ) 
+                    var  numero8  =  parseInt ( prompt ( "Informe o oitavo numero:" ) ) ;
+                      var  numero9  =  parseInt ( prompt ( "Informe o nono numero:" ) ) ;
+                        var  numero10  =  parseInt ( prompt ( "Informe o décimo numero:" ) ) ;
+
+                        deixedentro  =  [ ] ;
+                      vamosfora  =  [ ] ;
+
+                  if  ( numero1  >=  24  &&  numero1  <=  42 ) {
+               dentro . empurre ( número1 )
+            }  else  if  ( numero1  <  24  ||  numero1  >  42 ) {
+          fora . empurre ( número1 )
+        }
+
+      if  ( numero2  >=  24  &&  numero2  <=  42 ) {
+    dentro . empurre ( número2 )
+}  else  if  ( numero2  <  24  ||  numero2  >  42 ) {
+    fora . empurre ( número2 )
+  }
+
+      if  ( numero3  >=  24  &&  numero3  <=  42 ) {
+    dentro . empurre ( número3 )
+}  else  if  ( numero3  <  24  ||  numero3  >  42 ) {
+         fora . empurre ( número3 )
+  }
+
+       if  ( numero4  >=  24  &&  numero4  <=  42 ) {
+             dentro . empurre ( número4 )
+             }  else  if  ( numero4  <  24  ||  numero4  >  42 ) {
+               fora . empurre ( número4 )
+            }
+
+               if  ( numero5  >=  24  &&  numero5  <=  42 ) {
+                  dentro . empurre ( número5 )
+                          }  else  if  ( numero5  <  24  ||  numero5  >  42 ) {
+                               fora . empurre ( número5 )
+                               } 
+
+                              if  ( numero6  >=  24  &&  numero6  <=  42 ) {
+                                 dentro . empurre ( número6 )
+                                  }   else  if  ( numero6  <  24  ||  numero6  >  42 ) {
+                                fora . empurre ( número6 )
+                                    }
+
+                                  if  ( numero7  >=  24  &&  numero7  <=  42 ) {
+                                         dentro . empurre ( número7 )
+                                     }  else  if  ( numero7  <  24  ||  numero7  >  42 ) {
+                                            fora . empurre ( número7 )
+                                          }
+
+                                       if  ( numero8  >=  24  &&  numero8  <=  42 ) {
+                                  dentro . empurre ( número8 )
+                             }  else  if  ( numero8  <  24  ||  numero8  >  42 ) {
+                          fora . empurre ( número8 )
+                           }
+
+                       if  ( número9  >=  24  &&  número9  <=  42 ) {
+                   dentro . empurre ( número9 )
+              }  else  if  ( numero9  <  24  ||  numero9  >  42 ) {
+             fora . empurre ( número9 )
+            }
+
+           if  ( numero10  >=  24  &&  numero10  <=  42 ) {
+         dentro . empurre ( número10 )
+      }  else  if  ( numero10  <  24  ||  numero10  >  42 ) {
+    fora . empurre ( número10 )
+   }
+
+document. write ( `<b> Os números entre 24 e 42 são: </b> <br> ${ dentro } <br> <b> Os números de fora são: </b> <br> ${ fora } <br >` ) ;
+
+   
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
